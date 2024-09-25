@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: CognitoApp
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri:
+          issuer-uri:
+          clientId:
+          clientSecret:
+auth:
+  cognitoUri:
